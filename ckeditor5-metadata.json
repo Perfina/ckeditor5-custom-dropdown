@@ -1,0 +1,17 @@
+{
+  "plugins": [
+    {
+      "name": "Custom dropdown",
+      "className": "CustomDropdown",
+      "description": "Adds text to the editor.",
+      "path": "src/customdropdown.js",
+      "uiComponents": [
+        {
+          "name": "customDropdownButton",
+          "type": "Button",
+          "iconPath": "theme/icons/ckeditor.svg"
+        }
+      ]
+    }
+  ]
+}
